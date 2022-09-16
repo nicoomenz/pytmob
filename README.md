@@ -2,7 +2,12 @@
 
 #Django-version
   Django==2.2.28
-  
+
+# crear entorno virtual
+  python3 -m venv venv
+  ## activar el entorno
+  source venv/bin/activate
+
 # Instalación de requerimientos
   pip install -r requirements.txt
 
